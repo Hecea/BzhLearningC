@@ -6,6 +6,11 @@ header file in order to use the printf function */
 
 int main () {
   printf("Hello, world!\n");
+  int x = 5;
+  int y = 7;
+  int z = 1;
+  int total = x + y - z;
+  printf( "test:" "%d", total );
   return 0;
 }
 
@@ -18,8 +23,5 @@ return 0 terminates the main()
 Pour compiler utiliser l outil de compilation gcc avec la commande :
 gcc momfichier.c -o  lenomdefichierquejeveuxensortie
 l argument -o  cree un fichier executable binaire  monfichier.exe
-puis pour run the programme tapez:  ./ momfichie.exe 
+puis pour run the programme tapez:  ./ momfichie.exe
  */
-
-	
- 
